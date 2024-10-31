@@ -1,0 +1,403 @@
+h4 {
+  color: rgba(0,0,0,.87);
+}
+
+p.redpen-description2 {
+  font-size: 18px;
+  color: #616161;
+}
+
+.redpen-wrap {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 33px;
+  background-color: #f4f4f4;
+  border: 1px solid lightgray;
+  max-width: 1250px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.redpen-link {
+  color: #f44336;
+  transition-property: border;
+  transition-duration: 0.05s;
+  text-decoration: none;
+  padding-left: 5px;
+  transition-timing-function: ease-in-out;
+}
+
+.redpen-link:active,
+.redpen-link:hover {
+  color: #ff5005;
+}
+
+.redpen-wrap .redpen-description {
+  font-size: 18px;
+    line-height: 28px;
+    font-weight: inherit;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #616161;
+}
+
+h4.widgetid {
+  font-size: 18px;
+  font-weight: 300;
+  color: #000000c7;
+  margin-bottom: 5px;
+}
+
+.feedback-tool {
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  line-height: 0px;
+  color: rgba(0,0,0,.87);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.redpen-service-conn-box,
+.redpen-service-conn-box:active,
+.redpen-service-conn-box:focus-visible {
+  width: 80%;
+  border:solid 0.5px #d5caca !important;
+  color: rgba(97, 97, 97, 1);
+  padding: 8;
+  letter-spacing: 0.15px;
+  outline: none;
+}
+
+.redpen-service-conn-box:focus {
+  border:solid 1px #f44336 !important;
+}
+
+.redpen-wrap legend {
+  font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    padding: 0 4px;
+    color: black;
+}
+
+.redpen-wrap .fieldset-id {
+  color: rgba(0, 0, 0, 0.54) !important;
+  margin-bottom: 0px;
+  padding: 4px;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  min-width: 0px;
+}
+
+.redpen-wrap .fieldset-key {
+  color: rgba(0, 0, 0, 0.54) !important;
+  margin-bottom: 0px;
+  padding: 4px;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  min-width: 0px;
+  width: 150px;
+  float: right;
+}
+
+.redpen-wrap .fieldset-id:focus-within,
+.redpen-wrap .fieldset-key:focus-within {
+  border-color: #f44336;
+  border-width: 2px;
+  color: #f44336;
+}
+
+.redpen-wrap input[type="text"]:focus {
+  box-shadow: none;
+  border: 2px solid #f44336;
+}
+
+.redpen-whitebox {
+  background: #ffffff;
+  padding: 15px 0px 100px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 6%);
+}
+
+.redpen-whitebox2 {
+  background: #ffffff;
+  padding: 15px 0px 0px 30px !important;
+  border-radius: 10px;
+  margin: 30px;
+  box-shadow: 0px 0px 4px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 6%);
+}
+
+.redpen-wrap input[type="text"] {
+  font-size: inherit;
+  line-height: 45px;
+  font-weight: inherit;
+  color: #a17f7f !important;
+  box-shadow: none;
+}
+
+.redpen-section-header {
+  background-color: #f4f4f4;
+  padding-top: 30px !important;
+  text-align: center;
+  margin-right: 20px;
+  display: none;
+}
+
+p.redpen-steptitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(0,0,0,.87);
+}
+
+.redpen-section .form-table tr th {
+  width: 115px;
+}
+
+p.redpen-desc {
+  color: #616161;
+}
+
+.redpen-section {
+  padding: 0 30px 0% 30px !important;
+}
+
+.redpen-section .form-table tr input[type="text"] {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 100%;
+  margin-bottom: 0;
+  box-shadow: 0 0 0 #000 !important;
+  height: 35px;
+  padding: 6px 16px;
+  font-size: 14px;
+  line-height: 1.52857143;
+  color: #ffffff;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #dde6e9;
+  border-radius: 4px;
+}
+
+.redpen-section .redpen-signup {
+  padding: 8px 12px;
+  text-decoration: none;
+  border-radius: 100px !important;
+  font-weight: bold;
+  position: relative;
+  letter-spacing: 0.6px;
+}
+
+.redpen-section .redpen-signup:hover {
+  border: 2px solid #f44336 !important;
+  color: #f44336;
+}
+
+.redpen-section .submit #submit:hover {
+  background: #f44336 !important;
+  color: black !important;
+}
+
+.redpen-section .submit #submit,
+.redpen-section .submit #submit[disabled] {
+  border-radius: 100px;
+  background: #f44336 !important;
+  border: 2px solid #f44336 !important;
+  color: #ffffff !important;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.6px;
+  box-shadow: none;
+  height: 40px;
+  width: 130px;
+  text-shadow: none;
+}
+
+redpen-h5 {
+  font-size: .83em;
+  font-weight: 600;
+  margin: 0px 0px 5px;
+  color: rgba(0,0,0,.87);
+}
+
+.redpen-box2 {
+  margin: 0px 0px 15px 30px;
+  padding-top: 15px;
+}
+
+.redpen-stepbox {
+  margin: 0px 0px 0px -31px;
+}
+
+.redpen-step-border {
+  border-bottom: 1px solid lightgrey;
+}
+
+a, div {
+  outline: 0;
+  text-decoration: none;
+}
+
+
+.redpen-section .redpen-siteid-info {
+  margin-left: 137px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.redpen-section .redpen-siteid-info.site-id-error {
+  color: red;
+}
+
+.redpen-section .redpen-siteid-info.site-id-successfully-added {
+  color: green;
+}
+
+.redpen-section .site-id-not-valid,
+.redpen-section .site-id-null {
+  display: none;
+}
+
+#webWidgetForm input[disabled="disabled"] {
+  background-color: rgba(211, 211, 211, 0);
+  box-shadow: none;
+}
+
+#webWidgetForm .submit #submit[disabled] {
+  pointer-events: none;
+  opacity: 0.8;
+}
+
+#webWidgetForm .disableSubmitButton {
+  pointer-events: none !important;
+}
+
+input.disabled {
+  box-shadow: none !important;
+}
+
+.redpen-wrap .submit-button .btnremove, .btnconfig {
+  cursor: pointer;
+    padding: 5px 22px;
+    margin-right: 100px;
+    margin-top: 3px;
+    height: 45px;
+    width: 120px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.12) ;
+    text-align: center;
+}
+.redpen-wrap .submit-button .btnremove {
+  background-color: #f44336 ;
+}
+
+button:disabled,
+button[disabled]{
+  border: 1px solid #f44336;
+  background-color: #f44336;
+  color: #f44336;
+}
+
+.redpen-wrap .submit-button .btnremove:visited, .btnconfig:visited {
+  cursor: pointer;
+    padding: 5px 22px;
+    margin-right: 100px;
+    margin-top: 3px;
+    height: 45px;
+    width: 120px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    border-radius: 5px;
+    border: 1px solid #f44336;
+    color: #ffffff;
+    background-color: #f44336 ;
+    text-align: center;
+}
+
+.btnconfig:hover {
+  background-color: #f44336 !important;
+}
+
+.btnremove:hover {
+  background-color: #f44336 !important;
+  }
+
+.submit-button .btnremove:focus, .btnconfig:focus {
+  outline: 0;
+}
+
+.submit-button:after {
+  visibility: hidden;
+}
+
+  .submit-button {
+    text-align: center;
+    float: right;
+}
+
+.wrapper {
+  margin-bottom: 8px;
+}
+
+.redpen-wrap .redpen-box {
+  height: 0px;
+  font-size: inherit;
+  font-weight: inherit;
+  color: #3c434a;
+  line-height: inherit;
+}
+
+.redpen-wrap .redpen-inner-box {
+  width: 660px;
+  height: 131px;
+  font-size: 16px;
+  font-weight: inherit;
+  color: #3c434a;
+  line-height: 0px;
+}
+
+.redpen-wrap .redpen-inner-box .error-text {
+  padding-top: 190px;
+  color: #ff5005 !important;
+}
+
+.redpen-wrap .redpen-section-header {
+  border-radius: inherit;
+}
+
+.redpen-wrap .redpen-section-header a img {
+  width: 181px;
+  height: 40px;
+}
+
+#wpbody-content {
+  padding-bottom: 65px;
+  float: left;
+  width: 100%;
+  overflow: visible;
+}
+.update-messages h2, .update-php h2, h4 {
+  font-size: 1em;
+  margin: 10px 0;
+}
+.wp-die-message, p {
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 5px 0;
+}
+
+img.redpen-iconimg {
+  width: 24px;
+  height: 24px;
+  vertical-align: text-bottom;
+  padding-right: 5px;
+}
